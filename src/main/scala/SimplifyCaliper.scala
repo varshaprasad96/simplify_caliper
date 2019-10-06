@@ -62,7 +62,7 @@ object SimplifyCaliper extends App {
     //.as[(String, String)] // Optionally convert to Dataset
     //.rdd
 
-  
+
 
 
 
@@ -97,8 +97,8 @@ object SimplifyCaliper extends App {
   }
 
   def structField(columnName: String) : StructField = {
-    if (columnName == "eventTime") return StructField(columnName, TimestampType, nullable = true)
-    if (columnName startsWith "date") return StructField(columnName, TimestampType, nullable = true)
+    if (columnName == "eventTime") return StructField(columnName, StringType, nullable = true)
+    if (columnName startsWith "date") return StructField(columnName, StringType, nullable = true)
     if (columnName == "id") return StructField(columnName, StringType, nullable = true)
     return StructField(columnName, StringType, nullable = true)
   }
