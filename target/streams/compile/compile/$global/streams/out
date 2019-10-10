@@ -1,0 +1,10 @@
+[0m[[0m[33mwarn[0m] [0m[0m/Users/admin/Desktop/RA/scala-init/simplify_caliper/src/main/scala/SimplifyCaliper.scala:79:22: non-variable type argument String in type pattern scala.collection.immutable.Map[String,Object] (the underlying of Map[String,Object]) is unchecked since it is eliminated by erasure[0m
+[0m[[0m[33mwarn[0m] [0m[0m    case subobject : Map[String,Object] =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/admin/Desktop/RA/scala-init/simplify_caliper/src/main/scala/SimplifyCaliper.scala:90:23: non-variable type argument String in type pattern scala.collection.immutable.Map[String,Object] (the underlying of Map[String,Object]) is unchecked since it is eliminated by erasure[0m
+[0m[[0m[33mwarn[0m] [0m[0m        case submap : Map[String,Object] if submap contains "id" =>  theSimplerMap(k) = submap("id").toString; flatten(submap)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/admin/Desktop/RA/scala-init/simplify_caliper/src/main/scala/SimplifyCaliper.scala:91:23: non-variable type argument String in type pattern scala.collection.immutable.Map[String,Object] (the underlying of Map[String,Object]) is unchecked since it is eliminated by erasure[0m
+[0m[[0m[33mwarn[0m] [0m[0m        case submap : Map[String,Object] => theSimplerMap(k) = submap.toString ;  List()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m

@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Implementation-Title: Azure Data Lake Store - Java client SDK
+Implementation-Version: 2.0.11
+Archiver-Version: Plexus Archiver
+Built-By: Microsoft Corporation
+Specification-Vendor: Microsoft Corporation
+Specification-Title: Azure Data Lake Store - Java client SDK
+Implementation-Vendor-Id: com.microsoft.azure
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_92
+Specification-Version: 2.0.11
+Implementation-Vendor: Microsoft Corporation
+
